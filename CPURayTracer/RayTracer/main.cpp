@@ -66,31 +66,30 @@ int main(int argc, char* argv[])
 	std::thread t4(t4, &camera);
 
 	
-		QueryPerformanceCounter(&counterBegin);
-		start = GetTickCount64();
+	//QueryPerformanceCounter(&counterBegin);
+	//start = GetTickCount64();
 
-		//camera.SaveImage(1, 0);
-		//camera.SaveImage(2, camera.width/2);
+	//camera.SaveImage(1, 0);
+	//camera.SaveImage(2, camera.width/2);
 
-		t1.join();
-		t2.join();
-		t3.join();
-		t4.join();
+	t1.join();
+	t2.join();
+	t3.join();
+	t4.join();
 
-		camera.storeImage(std::string("test.png"));
+	camera.storeImage(std::string("test.png"));
 
-		QueryPerformanceCounter(&counterEnd);
-		end = GetTickCount64();
+	QueryPerformanceCounter(&counterEnd);
+	end = GetTickCount64();
 
-		counterAverage.QuadPart += counterEnd.QuadPart - counterBegin.QuadPart;
-		average += end - start;
+		//counterAverage.QuadPart += counterEnd.QuadPart - counterBegin.QuadPart;
+		//average += end - start;
 	
 
 	//counterAverage.QuadPart /= 100;
 	//average /= 100;
 
-	std::cout << "GPU:" << std::endl << "(QueryPerformanceCounter) Average peformance: 32581us per scene traced." << std::endl;
-	std::cout << "(GetTickCount64) Average performance: 9.8ms per scene traced." << std::endl;
+	std::cout << "Image file created named: test.png" << std::endl;
 	std::cin.get();
 
 	CString str = "F:/Year 3/Graphics and Computational Programming/GCP_2/Raytracer/Raytracer/test.png";

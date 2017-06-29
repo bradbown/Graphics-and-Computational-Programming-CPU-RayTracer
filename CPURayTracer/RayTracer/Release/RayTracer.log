@@ -1,31 +1,11 @@
-﻿Build started 1/4/2017 16:32:32.
-     1>Project "F:\Year 3\Graphics and Computational Programming\GCP_2\CPURayTracer\RayTracer\RayTracer.vcxproj" on node 2 (Build target(s)).
+﻿Build started 29/6/2017 16:47:25.
+     1>Project "F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\RayTracer\RayTracer.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\lodepng-master" /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\glm" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Colour.cpp Light.cpp lodepng.cpp main.cpp Object.cpp Plane.cpp Ray.cpp Source.cpp Sphere.cpp Triangle.cpp vec3.cpp
-         Camera.cpp
-     1>Camera.cpp(78): warning C4018: '<': signed/unsigned mismatch
-     1>Camera.cpp(87): warning C4018: '<': signed/unsigned mismatch
-     1>Camera.cpp(139): warning C4018: '<': signed/unsigned mismatch
-     1>Camera.cpp(383): warning C4018: '<': signed/unsigned mismatch
-     1>Camera.cpp(387): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-     1>Camera.cpp(393): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-     1>Camera.cpp(399): warning C4018: '<': signed/unsigned mismatch
-     1>Camera.cpp(404): warning C4018: '<': signed/unsigned mismatch
-         Colour.cpp
-         Light.cpp
-         lodepng.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\lodepng-master" /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\glm" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>main.cpp(70): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
      1>main.cpp(83): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
-         Object.cpp
-         Plane.cpp
-         Ray.cpp
-         Source.cpp
-         Sphere.cpp
-         Triangle.cpp
-         vec3.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Year 3\Graphics and Computational Programming\GCP_2\CPURayTracer\Release\RayTracer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Year 3\Graphics and Computational Programming\GCP_2\CPURayTracer\Release\RayTracer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Year 3\Graphics and Computational Programming\GCP_2\CPURayTracer\Release\RayTracer.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Release\RayTracer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Release\RayTracer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Release\RayTracer.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
          Release\Colour.obj
          Release\Light.obj
          Release\lodepng.obj
@@ -38,13 +18,13 @@
          Release\Triangle.obj
          Release\vec3.obj
          Generating code
-         987 of 992 functions (99.5%) were compiled, the rest were copied from previous compilation.
-           28 functions were new in current compilation
-           3 functions had inline decision re-evaluated but remain unchanged
+         1 of 992 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
          Finished generating code
-         RayTracer.vcxproj -> F:\Year 3\Graphics and Computational Programming\GCP_2\CPURayTracer\Release\RayTracer.exe
-     1>Done Building Project "F:\Year 3\Graphics and Computational Programming\GCP_2\CPURayTracer\RayTracer\RayTracer.vcxproj" (Build target(s)).
+         RayTracer.vcxproj -> F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Release\RayTracer.exe
+     1>Done Building Project "F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\RayTracer\RayTracer.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.95
+Time Elapsed 00:00:02.19
