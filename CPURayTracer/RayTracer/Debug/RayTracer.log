@@ -1,12 +1,31 @@
-﻿Build started 27/3/2017 02:35:01.
-     1>Project "F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\RayTracer\RayTracer.vcxproj" on node 2 (Build target(s)).
+﻿Build started 29/6/2017 16:55:49.
+     1>Project "F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\RayTracer\RayTracer.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\lodepng-master" /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\glm" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\lodepng-master" /I"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\SDKs\glm" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Colour.cpp Light.cpp lodepng.cpp main.cpp Object.cpp Plane.cpp Ray.cpp Source.cpp Sphere.cpp Triangle.cpp vec3.cpp
+         vec3.cpp
+         Triangle.cpp
+         Sphere.cpp
+         Source.cpp
+         Ray.cpp
+         Plane.cpp
+         Object.cpp
          main.cpp
-     1>f:\year 3\graphics and computational programming\gcp_2\raytracer\raytracer\main.cpp(70): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
-     1>f:\year 3\graphics and computational programming\gcp_2\raytracer\raytracer\main.cpp(83): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\main.cpp(83): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
+         lodepng.cpp
+         Light.cpp
+         Colour.cpp
+         Camera.cpp
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(78): warning C4018: '<': signed/unsigned mismatch
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(87): warning C4018: '<': signed/unsigned mismatch
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(139): warning C4018: '<': signed/unsigned mismatch
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(383): warning C4018: '<': signed/unsigned mismatch
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(387): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(393): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(399): warning C4018: '<': signed/unsigned mismatch
+     1>f:\year 3\graphics and computational programming\graphics-and-computational-programming\cpuraytracer\raytracer\camera.cpp(404): warning C4018: '<': signed/unsigned mismatch
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\Debug\RayTracer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\Debug\RayTracer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\Debug\RayTracer.lib" /MACHINE:X86 Debug\Camera.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Debug\RayTracer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Debug\RayTracer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Debug\RayTracer.lib" /MACHINE:X86 Debug\Camera.obj
          Debug\Colour.obj
          Debug\Light.obj
          Debug\lodepng.obj
@@ -18,9 +37,9 @@
          Debug\Sphere.obj
          Debug\Triangle.obj
          Debug\vec3.obj
-         RayTracer.vcxproj -> F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\Debug\RayTracer.exe
-     1>Done Building Project "F:\Year 3\Graphics and Computational Programming\GCP_2\RayTracer\RayTracer\RayTracer.vcxproj" (Build target(s)).
+         RayTracer.vcxproj -> F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\Debug\RayTracer.exe
+     1>Done Building Project "F:\Year 3\Graphics and Computational Programming\Graphics-and-Computational-Programming\CPURayTracer\RayTracer\RayTracer.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.54
+Time Elapsed 00:00:05.10
